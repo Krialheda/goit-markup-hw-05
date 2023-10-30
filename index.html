@@ -44,8 +44,18 @@
       <section id="main_hero">
         <div class="line_hero container">
           <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-          <button type="button" class="firstbutton">Solicite nuestro servicio</button>
+          <button type="button" class="firstbutton" data-modal-open>
+            Solicite nuestro servicio
+          </button>
+
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button data-modal-close>Cerrar</button>
+            </div>
+          </div>
         </div>
+
+        <script src="./js/modal.js"></script>
       </section>
 
       <section id="main_skills" class="padd">
