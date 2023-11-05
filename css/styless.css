@@ -215,6 +215,30 @@
   transition: transform 250ms var(--cubicB);
 }
 
+.close_modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0000002a;
+  border-radius: 50%;
+  background-color: var(--princptittle-color);
+  cursor: pointer;
+}
+
+.close_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11px;
+  height: 11px;
+  fill: #000000;
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
